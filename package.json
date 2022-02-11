@@ -1,0 +1,40 @@
+{
+    "name": "nit",
+    "displayName": "Nit Language",
+    "description": "Nit programming Language",
+    "version": "1.0.0",
+    "author": "WADE OSS <wade@biq.kr> (https://github.com/WADE-OSS)",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "publisher": "wade-oss",
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "nit",
+            "aliases": [".Nit programming language", "nit"],
+            "extensions": [".nit"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "nit",
+            "scopeName": "source.nit",
+            "path": "./syntaxes/nit.tmLanguage.json"
+        }]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/WADE-OSS/nit"
+    },
+    "license": "MIT",
+    "keywords": [
+        "vsc-extension",
+        "programming-language",
+        "nit",
+        "nitron",
+        "nitjs",
+        "nitronjs"
+    ]
+}
